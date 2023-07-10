@@ -10,7 +10,7 @@ export default function Components2() {
 
   return (
     <div className="App">
-      <h1>Your Component 2</h1>
+      <h1>Your Component ສະບາຍດີ  2</h1>
       <button
         className="btn-success"
         onClick={() => {
