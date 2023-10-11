@@ -40,3 +40,8 @@ code {
 }
 
 .btn-success {font-size: 16px;}
+.form-control{
+  border-radius: 10px;
+  width: 300px;
+  height: 30px;
+}
