@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 export default function Components2() {
   const [state, setState] = useState(0);
   const [state2, setState2] = useState([0]);
-  const [text,setTest]=useState("");
   useEffect(() => {
     setState2([state]);
   }, [state]);
@@ -27,15 +26,6 @@ export default function Components2() {
               <h1 key={index + 1}>
                 <button className="btn-danger">Your NumberClick ={item}</button>
               </h1>
-            </div>
-            <div>
-            <input type="text" className="form-control" placeholder="ປ້ອນຂໍ້ຄວາມ"
-                onChange={(e) => {
-                  setTest(e.target.value);
-                }}
-                value={text}
-              /><br/>
-              ທ່ານປ້ອນແມ່ນ: {text}
             </div>
             </>
 
